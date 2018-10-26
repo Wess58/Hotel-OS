@@ -61,7 +61,7 @@ public class App {
         post("/registerWaiter",(req,res)->{
            res.status(200);
            Waiter waiter=new Waiter();
-           waiter.setName(req.queryParams("name"));
+           waiter.setNam e(req.queryParams("name"));
            waiter.setPassword(req.queryParams("password"));
            if(waiter.register()){
                return  om.writeValueAsString(waiter);
