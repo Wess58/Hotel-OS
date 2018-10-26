@@ -122,7 +122,6 @@ public class App {
           }
           return false;
         });
-        
         get("/getFoods",(req,res)->{
           res.status(200);
           try {

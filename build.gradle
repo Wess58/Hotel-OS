@@ -1,14 +1,22 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
+<<<<<<< HEAD
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+=======
+version '1.0'
+
+>>>>>>> b98aa9ae865d82f838fe0785d27f050696fd48fc
 archivesBaseName = "Ordering-System"
 mainClassName = "App"
 applicationName = "Ordering-System"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b98aa9ae865d82f838fe0785d27f050696fd48fc
 repositories {
     mavenCentral()
 }
