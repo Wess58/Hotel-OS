@@ -77,6 +77,7 @@ public class Hotel implements Credentials{
     }
     return lists;
   }
+  
   public static boolean addWaiter(String hotel,String name){
     try{
       String sql="UPDATE waiters SET hotel=:hotel WHERE name=:name;";
