@@ -1,4 +1,4 @@
-# Hair-Salon Java App :haircut:
+# Hotel Ordering System
 
 ## Project contributors 
 ### Collins Magondu - TEAM LEADER & Back-En Dev
